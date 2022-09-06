@@ -1,0 +1,11 @@
+<!--pages/login/login.wxml-->
+<view class="main">
+  <image class="logo" src="/images/logo.png"></image>
+  <text class="title">教师端</text>
+  <text class="word">仅限企业内部人员使用</text>
+  <view class="login">
+    <input model:value="{{account}}" class="account" type="number" placeholder="请输入登录账号" maxlength="11"/>
+    <input model:value="{{password}}" class="password" type="password" placeholder="请输入登录账号" maxlength="20"/>
+    <view class="btn" bindtap="login_send">登录</view>
+  </view>
+</view>
